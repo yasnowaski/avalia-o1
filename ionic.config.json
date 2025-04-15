@@ -1,0 +1,7 @@
+{
+  "name": "tela",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
