@@ -1,27 +1,21 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>apresentacao</ion-title>
+    <ion-title>Tela Principal</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">apresentacao</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <swiper [spaceBetween]="50" [slidesPerView]="1" loop="true" pagination="true" navigation="true">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      
-    </div>
-
-    
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Bem-vindo(a), Yasmin!</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+     
+    </ion-card-content>
+  
+    <ion-button fill="clear" routerLink="/etapas">Ir para tela de Apresentação</ion-button>
+  </ion-card>
 
 </ion-content>
